@@ -1,0 +1,40 @@
+{
+  "name": "app-skeleton-webpack",
+  "version": "1.0.0",
+  "description": "A demo app skeleton",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "test": "NODE_ENV=test jest",
+    "test-watch": "NODE_ENV=test jest --watchAll",
+    "build-css": "node-sass src/stylesheets/index.sass src/index.css"
+  },
+  "author": "Yian Lo",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "node-sass": "^4.10.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/(node_modules)"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
+  }
+}

@@ -1,0 +1,12 @@
+body {
+  font-family: Helvetica Neue;
+  background: #333;
+  color: white; 
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem; 
+}
