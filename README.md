@@ -1,13 +1,13 @@
-#Getting Started
+# Getting Started
 
-###To start app on local server*
+### To start app on local server*
 
 ```
 npm start
 ```
 
 
-###To run tests in dev environment
+### To run tests in dev environment
 
 ```
 npm test
