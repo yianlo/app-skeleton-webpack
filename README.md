@@ -1,6 +1,6 @@
 # Getting Started
 
-### To start app on local server*
+### To start app on local server
 
 ```
 npm start
@@ -11,5 +11,4 @@ npm start
 
 ```
 npm test
-
 ```
